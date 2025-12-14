@@ -1,0 +1,19 @@
+\contentsline {chapter}{\numberline {1}Introduction}{5}{}%
+\contentsline {chapter}{\numberline {2}ALL stages}{7}{}%
+\contentsline {chapter}{\numberline {3}Tensor Mathematics Lessons}{9}{}%
+\contentsline {chapter}{\numberline {4}ALA (Applied Linear Algebra in Code)}{11}{}%
+\contentsline {chapter}{\numberline {5}ABM (Autograd and Backprop Mechanics)}{13}{}%
+\contentsline {chapter}{\numberline {6}OC (Optimization in Code)}{15}{}%
+\contentsline {chapter}{\numberline {7}LFTL (Loss Functions and Training Loop)}{17}{}%
+\contentsline {chapter}{\numberline {8}SQL Lessons (PostgreSQL)}{19}{}%
+\contentsline {chapter}{\numberline {9}NoSQL Lessons (MongoDB)}{21}{}%
+\contentsline {chapter}{\numberline {10}Object Storage Lessons (MinIO)}{23}{}%
+\contentsline {chapter}{\numberline {11}Vector Database Lessons (Qdrant)}{25}{}%
+\contentsline {chapter}{\numberline {12}Linear Regression}{27}{}%
+\contentsline {chapter}{\numberline {13}Logistic Regression}{29}{}%
+\contentsline {chapter}{\numberline {14}Perceptron}{31}{}%
+\contentsline {chapter}{\numberline {15}MLP (Feed-Forward Network)}{33}{}%
+\contentsline {chapter}{\numberline {16}RNN (Recurrent Neural Network)}{35}{}%
+\contentsline {chapter}{\numberline {17}LSTM (Long Short-Term Memory)}{37}{}%
+\contentsline {chapter}{\numberline {18}Transformer}{39}{}%
+\contentsline {chapter}{\numberline {19}LLM (Large Language Model)}{41}{}%
