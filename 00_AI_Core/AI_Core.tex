@@ -12,13 +12,20 @@
 \tableofcontents
 
 \chapter{Introduction}
-This small book explains the stages required to become a strong artificial intelligence developer.
-This book is based on 17 stages, where each stage has its own dedicated book.
-This book serves as the index and foundation for all other books.
+This small book explains the stages required to become a strong artificial intelligence developer.This book is based on 17 stages, where each stage has its own dedicated book.This book serves as the index and foundation for all other books.
+\vspace{0.5em}
+
+We will rely on the Python programming language together with PyTorch and CUDA, progressing step by step toward the most important methodologies used in building complete artificial intelligence systems. The projects in this book are problem-driven rather than solution-driven, reflecting how real AI systems are developed in practice.
+\vspace{0.5em}
+
+This book will not provide direct solutions. Instead, the reader is expected to search for answers independently and determine an appropriate approach for solving each assignment. Every task is designed to challenge understanding and encourage critical thinking about the problem itself.
+\vspace{0.5em}
+
+The core objective of this book is to present a collection of small, well-defined problems that must be solved by the reader. This learning strategy is known as problem-solving, and it represents the foundation upon which strong and independent AI engineers are built.
 
 \chapter{ALL stages}
 
-	\begin{table}[h]
+	\begin{table}[ht]
 	\centering
 		\begin{tabular}{|c|l|}
 		\hline
@@ -45,9 +52,16 @@ This book serves as the index and foundation for all other books.
 	\end{table}
 
 \chapter{Tensor Mathematics Lessons}
-text..
+Before entering the world of artificial intelligence programming, the first essential step is understanding tensors. A tensor is a structured way of representing data, conceptually similar to matrices but significantly more general and complex. To truly understand how tensors operate, they must be studied together with the mathematical laws that govern their behavior and interactions.
+\vspace{0.5em}
 
-	\begin{table}[h]
+Entering the field of artificial intelligence programming requires the ability to integrate multiple disciplines that may not initially appear connected. In particular, information technology and applied mathematics must work together, as mathematical reasoning provides the foundation for how AI algorithms are formed and executed.
+\vspace{0.5em}
+
+Applied mathematics represents the first cornerstone for entering the world of artificial intelligence programming. Without this foundation, it becomes difficult to understand how learning models, optimization processes, and intelligent systems function beneath the surface of the code.
+\vspace{0.5em}
+
+	\begin{table}[ht]
 	\centering
 		\begin{tabular}{|c|l|}
 		\hline
@@ -68,7 +82,7 @@ text..
 \chapter{ALA (Applied Linear Algebra in Code)}
 text..
 
-	\begin{table}[h]
+	\begin{table}[ht]
 	\centering
 		\begin{tabular}{|c|l|}
 		\hline
@@ -87,46 +101,293 @@ text..
 \chapter{ABM (Autograd and Backprop Mechanics)}
 text..
 
+	\begin{table}[ht]
+	\centering
+		\begin{tabular}{|c|l|}
+		\hline
+		Code & Lesson \\ \hline
+		ABM00 & Computational Graph Construction \\ \hline
+		ABM01 & Forward vs Backward Pass \\ \hline
+		ABM02 & Manual Gradient Calculation \\ \hline
+		ABM03 & Chain Rule in Code \\ \hline
+		ABM04 & Autograd Engine in PyTorch \\ \hline
+		ABM05 & Backprop Through Linear Layers \\ \hline
+		ABM06 & Gradient Flow Debugging \\ \hline
+		\end{tabular}
+	\caption{ABM (ABM00 - ABM06)}
+	\end{table}
+
 \chapter{OC (Optimization in Code)}
 text..
+
+	\begin{table}[ht]
+	\centering
+		\begin{tabular}{|c|l|}
+		\hline
+		Code & Lesson \\ \hline
+		OC00 & Gradient Descent Implementation \\ \hline
+		OC01 & Learning Rate Effects and Tuning \\ \hline
+		OC02 & Momentum Update Rule \\ \hline
+		OC03 & RMSProp Logic and Behavior \\ \hline
+		OC04 & Adam Optimizer Math + Code \\ \hline
+		OC05 & Convergence and Stability \\ \hline
+		OC06 & Weight Initialization Impact \\ \hline
+		\end{tabular}
+	\caption{OC (OC00 - OC06)}
+	\end{table}
 
 \chapter{LFTL (Loss Functions and Training Loop)}
 text..
 
+	\begin{table}[ht]
+	\centering
+		\begin{tabular}{|c|l|}
+		\hline
+		Code & Lesson \\ \hline
+		LFTL00 & What is Loss and Why \\ \hline
+		LFTL01 & MSE Loss Implementation \\ \hline
+		LFTL02 & Cross-Entropy Logic \\ \hline
+		LFTL03 & Building Training Loop Manually \\ \hline
+		LFTL04 & Batching + Epochs \\ \hline
+		LFTL05 & Evaluation AND Validation Split \\ \hline
+		LFTL06 & Overfitting Prevention Methods \\ \hline
+		\end{tabular}
+	\caption{LFTL (LFTL00 - LFTL06)}
+	\end{table}
+
 \chapter{SQL Lessons (PostgreSQL)}
 text..
+
+	\begin{table}[ht]
+	\centering
+		\begin{tabular}{|c|l|}
+		\hline
+		Code & Lesson \\ \hline
+		SQL00 & Relational Data Fundamentals \\ \hline
+		SQL01 & Tables, Keys and Schemas \\ \hline
+		SQL02 & Users, Plans and Limits Storage \\ \hline
+		SQL03 & Query Logic and Transactions \\ \hline
+		\end{tabular}
+	\caption{SQL (SQL00 - SQL03)}
+	\end{table}
 
 \chapter{NoSQL Lessons (MongoDB)}
 text..
 
+	\begin{table}[ht]
+	\centering
+		\begin{tabular}{|c|l|}
+		\hline
+		Code & Lesson \\ \hline
+		NOSQL00 & Document-Based Data Structures \\ \hline
+		NOSQL01 & Chat History and Session Memory \\ \hline
+		NOSQL02 & Dynamic Storage Models \\ \hline
+		NOSQL03 & Scaling with Replica and Sharding \\ \hline
+		\end{tabular}
+	\caption{NoSQL (NOSQL00 - NOQL03)}
+	\end{table}
+
 \chapter{Object Storage Lessons (MinIO)}
 text..
+
+	\begin{table}[ht]
+	\centering
+		\begin{tabular}{|c|l|}
+		\hline
+		Code & Lesson \\ \hline
+		OB00 & Binary Data and Large File Storage \\ \hline
+		OB01 & Datasets, Weights and Checkpoints \\ \hline
+		OB02 & Buckets and Access Structure \\ \hline
+		OB03 & Distributed Mode and Fault Tolerance\\ \hline
+		\end{tabular}
+	\caption{Object storage (OB00 - OB03)}
+	\end{table}
 
 \chapter{Vector Database Lessons (Qdrant)}
 text..
 
+	\begin{table}[ht]
+	\centering
+		\begin{tabular}{|c|l|}
+		\hline
+		Code & Lesson \\ \hline
+		QD00 & Embeddings and Semantic Meaning \\ \hline
+		QD01 & Similarity Search Mechanics \\ \hline
+		QD02 & RAG Integration Workflow \\ \hline
+		QD03 & Indexing and Scalable Retrieval \\ \hline
+		\end{tabular}
+	\caption{Vector Databse  (QD00 - QD03)}
+	\end{table}
+
 \chapter{Linear Regression}
 text..
+
+	\begin{table}[ht]
+	\centering
+		\begin{tabular}{|c|l|}
+		\hline
+		Code & Lesson \\ \hline
+		LR00 & Introduction to Linear Regression \\ \hline
+		LR01 & Model Structure and Components \\ \hline
+		LR02 & Data Preparation and Feature Inputs \\ \hline
+		LR03 & Prediction Function Implementation \\ \hline
+		LR04 & Error Measurement and Loss Definition \\ \hline
+		LR05 & Parameter Adjustment and Gradient Concept \\ \hline
+		LR06 & Training Iterations and Convergence \\ \hline
+		LR07 & Model Evaluation and Performance Metrics \\ \hline
+		LR08 & Result Visualization and Interpretation \\ \hline
+		\end{tabular}
+	\caption{Linear Regression (LR00 - LR08)}
+	\end{table}
 
 \chapter{Logistic Regression}
 text..
 
+	\begin{table}[ht]
+	\centering
+		\begin{tabular}{|c|l|}
+		\hline
+		Code & Lesson \\ \hline
+		LG00 & Introduction to Logistic Regression \\ \hline
+		LG01 & Binary Output and Decision Logic \\ \hline
+		LG02 & Sigmoid Activation Behavior \\ \hline
+		LG03 & Probability Interpretation Framework \\ \hline
+		LG04 & Classification Boundary Definition \\ \hline
+		LG05 & Loss Representation for Classification \\ \hline
+		LG06 & Model Adjustment and Gradient Direction \\ \hline
+		LG07 & Accuracy Validation and Output Analysis \\ \hline
+		LG08 & Multi-Class Extension Concepts \\ \hline
+		\end{tabular}
+	\caption{Logistic Regression (LG00 - LG08)}
+	\end{table}
+
 \chapter{Perceptron}
 text..
+
+	\begin{table}[ht]
+	\centering
+		\begin{tabular}{|c|l|}
+		\hline
+		Code & Lesson \\ \hline
+		PC00 & Introduction to the Perceptron Concept \\ \hline
+		PC01 & Input Weights and Bias Structure \\ \hline
+		PC02 & Activation Threshold Behavior \\ \hline
+		PC03 & Output Decision Mapping \\ \hline
+		PC04 & Update Rule and Adjustment Cycle \\ \hline
+		PC05 & Separation Limitations and Boundaries \\ \hline
+		PC06 & Training Dynamics and Convergence \\ \hline
+		PC07 & Multi-Input Handling Logic \\ \hline
+		PC08 & Transition Toward Multi-Layer Networks \\ \hline
+		\end{tabular}
+	\caption{Perceptron (PC00 - PC08)}
+	\end{table}
 
 \chapter{MLP (Feed-Forward Network)}
 text..
 
+	\begin{table}[ht]
+	\centering
+		\begin{tabular}{|c|l|}
+		\hline
+		Code & Lesson \\ \hline
+		MLP00 & Introduction to Multi-Layer Perceptron \\ \hline
+		MLP01 & Layered Structure and Signal Flow \\ \hline
+		MLP02 & Activation Functions Across Layers \\ \hline
+		MLP03 & Forward Signal Computation Steps \\ \hline
+		MLP04 & Layer Interaction and Weight Influence \\ \hline
+		MLP05 & Expanded Feature Representation \\ \hline
+		MLP06 & Network Depth and Complexity Handling \\ \hline
+		MLP07 & Output Mapping and Decision Formation \\ \hline
+		MLP08 & Extended Use Cases and Applications \\ \hline
+		\end{tabular}
+	\caption{MLP (MLP00 - MLP08)}
+	\end{table}
+
 \chapter{RNN (Recurrent Neural Network)}
 text..
+
+	\begin{table}[ht]
+	\centering
+		\begin{tabular}{|c|l|}
+		\hline
+		Code & Lesson \\ \hline
+		RNN00 & Introduction to Sequential Modeling \\ \hline
+		RNN01 & Recurrent Structure and State Flow \\ \hline
+		RNN02 & Temporal Dependency Formation \\ \hline
+		RNN03 & Step-Based Output Interpretation \\ \hline
+		RNN04 & State Retention and Signal Transition \\ \hline
+		RNN05 & Sequential Input Handling Logic \\ \hline
+		RNN06 & Pattern Extraction Across Time \\ \hline
+		RNN07 & Prediction Over Ordered Data \\ \hline
+		RNN08 & Practical Use Case Scenarios \\ \hline
+		\end{tabular}
+	\caption{RNN (RNN00 - RNN08)}
+	\end{table}
 
 \chapter{LSTM (Long Short-Term Memory)}
 text..
 
+	\begin{table}[ht]
+	\centering
+		\begin{tabular}{|c|l|}
+		\hline
+		Code & Lesson \\ \hline
+		LSTM00 & Introduction to Long-Term Memory Networks \\ \hline
+		LSTM01 & Cell State Persistence Concept \\ \hline
+		LSTM02 & Information Retention Gate \\ \hline
+		LSTM03 & Information Addition Gate \\ \hline
+		LSTM04 & Output Extraction Gate \\ \hline
+		LSTM05 & Sequence Memory Stability \\ \hline
+		LSTM06 & Long-Range Dependency Handling \\ \hline
+		LSTM07 & Sequential Prediction Mapping \\ \hline
+		LSTM08 & Applied Use Case Scenarios \\ \hline
+		\end{tabular}
+	\caption{LSTM (LSTM00 - LSTM08)}
+	\end{table}
+
 \chapter{Transformer}
 text..
 
+	\begin{table}[ht]
+	\centering
+		\begin{tabular}{|c|l|}
+		\hline
+		Code & Lesson \\ \hline
+		TR00 & Introduction to Transformer Architecture \\ \hline
+		TR01 & Attention Mechanism Fundamentals \\ \hline
+		TR02 & Positional Encoding Concepts \\ \hline
+		TR03 & Multi-Head Attention Structure \\ \hline
+		TR04 & Feed Forward Block Interaction \\ \hline
+		TR05 & Layer Normalization Flow \\ \hline
+		TR06 & Token Representation and Mapping \\ \hline
+		TR07 & Sequence Processing and Output \\ \hline
+		TR08 & High-Level Transformer Applications \\ \hline
+		\end{tabular}
+	\caption{Transformer (TR00 - TR08)}
+	\end{table}
+
 \chapter{LLM (Large Language Model)}
+text..
+
+	\begin{table}[ht]
+	\centering
+		\begin{tabular}{|c|l|}
+		\hline
+		Code & Lesson \\ \hline
+		LLM00 & Large Language Model Fundamentals \\ \hline
+		LLM01 & Tokenization and Vocabulary Systems \\ \hline
+		LLM02 & Embedding Representation Scaling \\ \hline
+		LLM03 & Deep Attention Stack Behavior \\ \hline
+		LLM04 & Context Window Handling \\ \hline
+		LLM05 & Inference and Generation Flow \\ \hline
+		LLM06 & Parameter Scaling and Capacity \\ \hline
+		LLM07 & Fine-Tuning and Adaptation \\ \hline
+		LLM08 & RAG and External Knowledge Integration \\ \hline
+		\end{tabular}
+	\caption{LLM (LLM00 - LLM08)}
+	\end{table}
+
+\chapter{Conclusion}
 text..
 
 \end{document} 
