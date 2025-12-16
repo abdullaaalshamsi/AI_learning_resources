@@ -1,6 +1,6 @@
 \contentsline {chapter}{\numberline {1}Introduction}{5}{}%
 \contentsline {chapter}{\numberline {2}T00}{7}{}%
-\contentsline {section}{\numberline {2.1}Lesson T00}{7}{}%
+\contentsline {section}{\numberline {2.1}Lesson E00}{7}{}%
 \contentsline {paragraph}{Understanding the Problem}{7}{}%
 \contentsline {paragraph}{Mathematical Formulation}{7}{}%
 \contentsline {paragraph}{Mathematical Solution}{7}{}%

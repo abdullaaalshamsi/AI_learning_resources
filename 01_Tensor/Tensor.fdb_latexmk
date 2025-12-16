@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1765840693.18929 "/home/server-1/Desktop/AI_learning_resources/01_Tensor/Tensor.tex" "Tensor.pdf" "Tensor" 1765840693.52473 0
+["pdflatex"] 1765896206.10061 "/home/server-1/Desktop/AI_learning_resources/01_Tensor/Tensor.tex" "Tensor.pdf" "Tensor" 1765896206.40785 0
   "/etc/texmf/web2c/texmf.cnf" 1765739962.01486 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/server-1/Desktop/AI_learning_resources/01_Tensor/Tensor.tex" 1765840692.69831 1601 ebfc39943ef4f80822b4314ce959dd37 ""
+  "/home/server-1/Desktop/AI_learning_resources/01_Tensor/Tensor.tex" 1765896205.58267 1631 837556d56f9f476435b97dd0a0bc23b6 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -26,9 +26,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1765739977.33785 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1765740048 8213502 b9f2d477340804eec0e191b5916cfd87 ""
-  "Tensor.aux" 1765840693.49604 1427 8a969a6ae2a6bf46aaf5dd20647840e0 "pdflatex"
-  "Tensor.tex" 1765840692.69831 1601 ebfc39943ef4f80822b4314ce959dd37 ""
-  "Tensor.toc" 1765840693.49704 675 4ea1952bab7faedf038b41c381416f3d "pdflatex"
+  "Tensor.aux" 1765896206.38368 1427 f926e0de76ddd00c939e991db65a49d7 "pdflatex"
+  "Tensor.tex" 1765896205.58267 1631 837556d56f9f476435b97dd0a0bc23b6 ""
+  "Tensor.toc" 1765896206.38468 675 9a0881eac88a2d5dc7756efe2a294176 "pdflatex"
   (generated)
   "Tensor.aux"
   "Tensor.log"
